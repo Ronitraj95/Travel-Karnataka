@@ -21,7 +21,7 @@ cloudinary.config({
 });
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175'],
+  origin: ['https://travel-karnataka-frontend.onrender.com', 'https://travel-karnataka-admin-axpp.onrender.com', 'http://localhost:5175'],
   credentials: true
 }));
 app.use(express.urlencoded({ extended: true }));
